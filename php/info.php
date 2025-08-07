@@ -1,6 +1,6 @@
 <?php
 $secret = 'supersecretAA!@@A$';
-$conn = new mysqli("db", "labuser", "labpass", "testdb");
+$conn = new mysqli("containers-us-west-123.railway.app", "root", "PdIqNlSFnzKhJMWiZlCahdHwCtwvCGgm", "railway", 3306);
 if ($conn->connect_error) {
     die("DB Error");
 }
